@@ -14,9 +14,9 @@ console.log("Init");
 console.log("------------------------------------------------------------------------");
 
 const store = configureStore();
-const state =  store.getState();
-const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
-console.log(visibleExpenses);
+//console.log('test');
+//const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
+//console.log(visibleExpenses);
 
 //---------------------------------------------------------------------------------------------------------
 const jsx = (

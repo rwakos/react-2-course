@@ -33,4 +33,7 @@ git remote add origin git@github.com:rwakos/react-2-course.git
 #Git Push first time
  git push -u origin master
  
+ ... if failed run (ONLY FOR THE FIRST TIME):
+ git push -f origin master
+ 
  
