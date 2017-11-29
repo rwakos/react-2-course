@@ -36,4 +36,6 @@ git remote add origin git@github.com:rwakos/react-2-course.git
  ... if failed run (ONLY FOR THE FIRST TIME):
  git push -f origin master
  
+ #Git add + commit at the same time
+ git commit -am "Title"
  
