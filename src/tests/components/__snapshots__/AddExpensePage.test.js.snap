@@ -1,23 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should handle submit in AddExpensePage correct 1`] = `
-<div>
-  <h1>
-    Add AddExpensePage
-  </h1>
-  <ExpenseForm
-    onSubmit={[Function]}
-  />
-</div>
-`;
+exports[`should handle submit in AddExpensePage correct 1`] = `undefined`;
 
-exports[`should render AddExpensePage correct 1`] = `
-<div>
-  <h1>
-    Add AddExpensePage
-  </h1>
-  <ExpenseForm
-    onSubmit={[Function]}
-  />
-</div>
-`;
+exports[`should render AddExpensePage correct 1`] = `undefined`;

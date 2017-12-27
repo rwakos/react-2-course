@@ -1,2 +1,7 @@
 node_modules
 public/dist
+.env.test
+.env.development
+.idea/misc.xml
+.idea/workspace.xml
+yarn.lock
