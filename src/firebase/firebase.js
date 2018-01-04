@@ -11,21 +11,22 @@ const config = {
 
 firebase.initializeApp(config);
 const database = firebase.database();
-export { firebase, database as default};
-        /*
-        const onValueChange = database.ref('expenses')
-            .on('value', (snapshot) => {
-                const expenses = [];
-                snapshot.forEach((childSnapshot) => {
-                    expenses.push({
-                        id: childSnapshot.key,
-                        ...childSnapshot.val()
-                    });
-                })
+const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
 
-                console.log(expenses);
-            });
-        */
+export { firebase, googleAuthProvider, database as default};
+/*
+const onValueChange = database.ref('expenses')
+.on('value', (snapshot) => {
+     const expenses = [];
+     snapshot.forEach((childSnapshot) => {
+           expenses.push({
+           id: childSnapshot.key,
+           ...childSnapshot.val()
+           });
+     })
+     console.log(expenses);
+});
+*/
 /*
 //Notification on Delete child
 database.ref('expenses').on('child_removed',(snapshot) => {
