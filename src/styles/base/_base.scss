@@ -1,10 +1,16 @@
+* {
+  box-sizing: border-box;  /* Height fix to exclude padding and margin overall, it will comply to height = 50 */
+}
+
 html {
     font-size: 62.5%;
 }
 
 body{
+    color: $dark-grey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: $m-size;
+    line-height: 1.6;
 }
 
 button {
